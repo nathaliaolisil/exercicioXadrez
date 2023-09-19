@@ -3,22 +3,22 @@ namespace tabuleiro
 {
 	public class Posicao
 	{
-		int Linha { get; set; }
-		int Coluna { get; set; }
+		int linha { get; set; }
+		int coluna { get; set; }
 
 		public Posicao(int linha, int coluna)
 		{
 
-			Linha = linha;
-            Coluna = coluna;
+			this.linha = linha;
+            this.coluna = coluna;
 
 		}
 
         public override string ToString()
         {
-            return Linha
+            return linha
                 + ", "
-                + Coluna;
+                + coluna;
         }
 
     }
