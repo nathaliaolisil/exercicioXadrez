@@ -1,10 +1,10 @@
 ﻿using System;
 namespace tabuleiro
 {
-	public class Posicao
+	class Posicao
 	{
-		int linha { get; set; }
-		int coluna { get; set; }
+		public int linha { get; set; }
+		public int coluna { get; set; }
 
 		public Posicao(int linha, int coluna)
 		{
@@ -13,6 +13,12 @@ namespace tabuleiro
             this.coluna = coluna;
 
 		}
+
+        public void definirValores(int linha, int coluna)
+        {
+            this.linha = linha;
+            this.coluna = coluna;
+        }
 
         public override string ToString()
         {
