@@ -6,21 +6,13 @@ namespace xadrez_console {
     class Program {
         static void Main(String[] args) {
 
-            try
-            {
-                Tabuleiro tab = new Tabuleiro(8, 8);
+            PosicaoXadrez pos = new PosicaoXadrez('a', 1);
 
-                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 0));
-                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(1, 2));
-                tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
+            Console.WriteLine(pos);
 
-                Tela.imprimirTabuleiro(tab);
+            Console.WriteLine(pos.toPosicao());
 
-            }
-            catch (TabuleiroException e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            Console.ReadLine();
             
 
         }
