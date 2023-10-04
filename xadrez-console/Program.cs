@@ -4,14 +4,13 @@ using xadrez;
 
 namespace xadrez_console {
     class Program {
-        static void Main(String[] args) {
+        static void Main(string[] args) {
 
-            try
-            {
+            try {
                 PartidaDeXadrez partida = new PartidaDeXadrez();
 
-                while (!partida.terminada)
-                {
+                while (!partida.terminada) {
+
                     Console.Clear();
                     Tela.imprimirTabuleiro(partida.tab);
 
@@ -29,21 +28,14 @@ namespace xadrez_console {
                     Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
 
                     partida.executaMovimento(origem, destino);
-
                 }
 
-                Tela.imprimirTabuleiro(partida.tab);
-
             }
-            catch (TabuleiroException e)
-            {
+            catch (TabuleiroException e) {
                 Console.WriteLine(e.Message);
             }
-            
 
+            Console.ReadLine();
         }
-
     }
-
 }
-
