@@ -1,4 +1,38 @@
 ﻿<Properties StartupConfiguration="{1AB28A57-0B5C-4967-A3E0-696F5AADE5AB}|Default">
-  <MonoDevelop.Ide.ItemProperties.xadrez-console FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.xadrez-console PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="xadrez-console/xadrez/PosicaoXadrez.cs">
+    <Files>
+      <File FileName="xadrez-console/tabuleiro/Tabuleiro.cs" Line="25" Column="4" />
+      <File FileName="xadrez-console/Tela.cs" Line="24" Column="40" />
+      <File FileName="xadrez-console/xadrez/Rei.cs" Line="74" Column="10" />
+      <File FileName="xadrez-console/xadrez/Torre.cs" Line="75" Column="10" />
+      <File FileName="xadrez-console/Program.cs" Line="26" Column="1" />
+      <File FileName="xadrez-console/tabuleiro/Peca.cs" Line="24" Column="3" />
+      <File FileName="xadrez-console/tabuleiro/Posicao.cs" Line="1" Column="1" />
+      <File FileName="xadrez-console/xadrez/PosicaoXadrez.cs" Line="1" Column="1" />
+      <File FileName="xadrez-console/tabuleiro/Cor.cs" Line="1" Column="1" />
+      <File FileName="xadrez-console/tabuleiro/TabuleiroException.cs" Line="1" Column="1" />
+      <File FileName="xadrez-console/xadrez/PartidaDeXadrez.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xadrez-console" expanded="True">
+            <Node name="xadrez-console" expanded="True">
+              <Node name="tabuleiro" expanded="True" />
+              <Node name="xadrez" expanded="True">
+                <Node name="PosicaoXadrez.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
